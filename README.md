@@ -3,7 +3,7 @@ Use multithreading to spawn threads and get updates about stock exchanges
 
 ## 🚀 Overview
 The application implements multiple threads to actually
-pull data using https://www.alphavantage.co/ API and display stock prices it in real time. 
+pull data using https://www.alphavantage.co/ API and display stock prices in real time. 
 Implement 'requests' library to interact with the remote interface
 and place the data in a threading queue in the form of json response.
 Multiple threads are being created iteratively to get the data based on a list
