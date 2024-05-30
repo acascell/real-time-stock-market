@@ -7,6 +7,7 @@ from typing import List
 
 
 class StockMarketDataProcessor:
+    """A class to fetch and process stock market data using Alpha Vantage API."""
     def __init__(self, api_key: str, stocks: List[str], interval: str = "1min"):
         """Initialize the data processor with API key, stock list, and data fetch interval."""
 
